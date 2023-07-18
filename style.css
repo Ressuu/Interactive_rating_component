@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #131518;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rating_box,
+.thank_you {
+  max-height: 416px;
+  width: 412px;
+  border-radius: 30px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
+
+.rating_box img[alt="star_image"] {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #262e38;
+  border-radius: 50%;
+}
+
+.rating_box h1 {
+  font-family: Overpass;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+}
+
+.rating_box p {
+  font-family: Overpass;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5rem 1.5rem;
+  line-height: 24px;
+  color: #969fad;
+}
+
+.rating_box ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.rating_box ul li button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 1rem;
+  font-family: Overpass;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background-color: #262e38;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.rating_box ul li button:hover {
+  background-color: #7c8798;
+}
+
+.rating_box ul li button:focus {
+  background-color: #fc7614;
+}
+
+.btn-submit {
+  display: flex;
+}
+
+.btn-submit button {
+  background: #fc7614;
+  border-radius: 22.5px;
+  font-family: Overpass;
+  margin: 2rem auto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0.5rem 7rem;
+  line-height: normal;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.btn-submit button:hover {
+  background: #ffffff;
+}
+
+.thank-you {
+}
+
+.thank_you img {
+  padding: 45px 0;
+  display: block;
+  margin: auto;
+}
+
+.selected span {
+  background-color: #262e38;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fc7614;
+}
+
+.selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 16px;
+  width: 193px;
+  height: 32px;
+  border-radius: 22.5px;
+  background-color: #262e38;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fc7614;
+}
+
+.thank_you h1 {
+  text-align: center;
+  font-family: Overpass;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+
+.thank_you p {
+  color: #969fad;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.rate_again {
+  background: #fc7614;
+  border-radius: 22.5px;
+  font-family: Overpass;
+  margin: 2rem auto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0.5rem 7rem;
+  line-height: normal;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
